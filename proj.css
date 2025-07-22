@@ -1,0 +1,189 @@
+body{
+    background-color: #f3f5f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lover{
+    display: flex;
+    flex-direction: column;
+    color:  #3d535f;
+    align-items: center;
+    position: relative;
+    width: 90%;
+}
+.moon{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.star{
+    border-top-left-radius: 75%;
+    border-bottom-left-radius: 75%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color:  #ffff;
+    background-color: #3d535f;
+    padding-top: 13px;
+    padding-left: 28px;
+    padding-bottom: 13px;
+    padding-right: 9px;
+    margin: 40px 5px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    box-shadow: 0 15px 10px rgba(0,0,0, 0.4);
+    text-decoration: none;
+    position: fixed;
+    z-index: 1;
+}
+.star:hover{
+    background-color: powderblue;
+    color: #3d535f;
+}
+.picha{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.pichajuu{
+    margin-right: 9%;
+}
+a:hover{
+    background-color: powderblue;
+    color: #3d535f;
+}
+h1{
+    color: #3d535f;
+}
+h2{
+    color:  cadetblue;
+    font-size: 25px;
+}
+.hater{
+    display: flex;
+    flex-direction: column;
+}
+.you{
+    width: 98%;
+}
+.color{
+    color: cadetblue;
+    font-size: 20px;
+}
+img{
+    box-shadow: 0 15px 10px rgba(0,0,0, 0.4);
+    border-radius: 5%;
+    height: 220px;
+    width: 240px;
+}
+.church{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+    width: 98%;
+}
+.noo{
+    color:  #3d535f;
+    text-align: left;
+    line-height: 1.0;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    display: flex;
+    
+}
+.under{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 4%;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color:  #3d535f;
+    background-color: #974b8a;
+    padding: 8px 14px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    box-shadow: 0 15px 10px rgba(0,0,0, 0.4);
+}
+.start:hover{
+    background-color: #fff;
+    color: #974b8a; 
+}
+@media (max-width: 900px){
+    .lover{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 3%;
+    }
+    .hater{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .under{
+        margin-top: 9%;
+    }
+    .you{
+        width: 100%;
+    }
+    .moon{
+        z-index: 100;
+    }
+    .star{
+        padding-left: 19px;
+        font-size: 12px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 3px;
+    }
+    .church{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 90%;
+    }
+    button{
+        margin-left: auto;
+        margin-bottom: 60px;
+    }
+    .moon{
+        margin-top: 3px;
+    }
+    h1{
+        margin-top: 100px;
+        text-align: center;
+    }
+}
+@media (max-width: 850px){
+    .picha{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px){
+    .church{
+        width: 80%;
+        font-size: 16px;
+    }
+}
